@@ -10,10 +10,8 @@ let html = '';
 products.forEach(element => {
     const node = document.createElement('tr');
     node.innerHTML = `
-        <tr>
             <td>${element.name}</td>
             <td>${element.price}</td>
-        </tr>
     `;
 
     tbody.appendChild(node);
